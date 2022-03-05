@@ -1,0 +1,38 @@
+{
+  "name": "@xsai/workspace",
+  "type": "module",
+  "version": "0.4.4",
+  "private": true,
+  "packageManager": "pnpm@10.28.2",
+  "repository": "github:moeru-ai/xsai",
+  "scripts": {
+    "build": "turbo build",
+    "build:packages": "turbo -F=!./docs build",
+    "bump": "bumpp",
+    "docs:dev": "pnpm -rF @xsai/docs dev",
+    "lint": "moeru-lint .",
+    "test": "pnpm -r --workspace-concurrency=1 test",
+    "test:speech": "pnpm -r test:speech",
+    "test:transcription": "pnpm -r test:transcription"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@moeru/eslint-config": "catalog:",
+    "@moeru/tsconfig": "catalog:",
+    "@pnpm/find-workspace-dir": "catalog:",
+    "@types/eslint": "catalog:",
+    "@types/node": "catalog:",
+    "@vitest/coverage-v8": "catalog:",
+    "automd": "catalog:",
+    "bumpp": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-oxlint": "catalog:",
+    "oxlint": "catalog:",
+    "pkgroll": "catalog:",
+    "tsdown": "catalog:",
+    "tsx": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}
