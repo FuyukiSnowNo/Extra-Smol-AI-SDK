@@ -222,7 +222,3 @@ xsAI is used in community and in-house projects including:
 ## License
 
 [MIT](LICENSE.md)
-
-## Sponsors
-
-![sponsors](https://github.com/kwaa/sponsors/blob/main/public/sponsors.svg?raw=true)
